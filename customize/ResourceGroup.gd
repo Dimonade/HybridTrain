@@ -13,14 +13,14 @@ onready var resourceContainer = find_node("ResourceContainer")
 func _ready():
 	setResourceGroupName(resourceGroupName)
 
-	
+
 
 func setResourceGroupName(value):
 	resourceGroupName = value
 	if mainResource:
 		mainResource.resourceName = value
-	
-	
+
+
 func setResources(value):
 	resources = value
 	if resourceContainer:
@@ -30,4 +30,3 @@ func setResources(value):
 			var resourceBar = resourceBarClass.instance()
 			resourceBar.resourceName = resource
 			resourceContainer.add_child(resourceBar)
-	
