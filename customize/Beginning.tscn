@@ -110,14 +110,14 @@ _sections_unfolded = [ "Size Flags" ]
 
 [node name="VBoxContainer" parent="Panel/HBoxContainer/VBoxContainer3" index="0" instance=ExtResource( 1 )]
 
-margin_bottom = 56.0
+margin_bottom = 50.0
 resourceGroupName = "Provisions"
 resources = PoolStringArray( "Food", "Water" )
 
 [node name="VBoxContainer2" parent="Panel/HBoxContainer/VBoxContainer3" index="1" instance=ExtResource( 1 )]
 
-margin_top = 60.0
-margin_bottom = 116.0
+margin_top = 54.0
+margin_bottom = 104.0
 resourceGroupName = "Moral"
 resources = PoolStringArray( "Food quality", "Safety", "Happiness" )
 
@@ -188,15 +188,15 @@ _sections_unfolded = [ "Size Flags" ]
 [node name="VBoxContainer" parent="Panel/HBoxContainer/VBoxContainer4" index="0" instance=ExtResource( 1 )]
 
 margin_right = 638.0
-margin_bottom = 56.0
+margin_bottom = 50.0
 resourceGroupName = "Fuel"
 resources = PoolStringArray( "Liquid", "Solid", "Distilled water", "Battery charge" )
 
 [node name="VBoxContainer2" parent="Panel/HBoxContainer/VBoxContainer4" index="1" instance=ExtResource( 1 )]
 
-margin_top = 60.0
+margin_top = 54.0
 margin_right = 638.0
-margin_bottom = 116.0
+margin_bottom = 104.0
 resourceGroupName = "Train"
 resources = PoolStringArray( "Top speed", "Weight" )
 

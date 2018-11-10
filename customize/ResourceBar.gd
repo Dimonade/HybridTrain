@@ -13,4 +13,3 @@ func SetResourceName(value):
 	if labelNode:
 		labelNode.text = value
 	resourceName = value
-	
